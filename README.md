@@ -22,7 +22,6 @@ To actually run it, please use following script (just name it `opencode` and put
 WORKDIR="${PWD/"${HOME}"//home/user}"
 
 # TERM_PROGRAM and COLORTERM are required to specify the terminal and color to support correct formatting
-# mounting /tmp/tmux-1000/default (or any other uid) is required to mount the tmux socket and enables the copy on selection and paste using C-b-]
 # mounting of the git config is required to have the correct ssh keys for git repos
 # mounting of the ssh config is required to clone private repos
 command=(
