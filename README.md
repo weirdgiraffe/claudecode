@@ -1,4 +1,4 @@
-# Opencode container
+# Claude code container
 
 This repository provides the container to run opencode in a safe environment. It also introduce a small go binary
 to sync the clipboard between the opencode container and the host mac os system (see [README](./tools/clipboard-bridge/README.md)).
