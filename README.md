@@ -14,7 +14,7 @@ To build the container itself just run
 Which will build the container for your local architecture.
 
 
-To actually run it, please use following script (just name it `opencode` and put it to `~/bin/` or `/usr/local/bin`):
+To actually run it, please use following script (just name it `cc` or `claude` and put it to `~/bin/` or `/usr/local/bin`):
 
 ```bash
 #!/usr/bin/env bash
