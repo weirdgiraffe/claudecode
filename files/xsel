@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+curl -s http://host.docker.internal:9999/clipboard -X POST --data-binary @-
